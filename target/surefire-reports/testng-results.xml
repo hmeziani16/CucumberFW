@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-23T18:00:16 CEST" name="src/test/resources/testng.xml" finished-at="2023-06-23T18:00:34 CEST" duration-ms="17905">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@437da279]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-06-23T18:00:16 CEST" name="Login Page Test" finished-at="2023-06-23T18:00:34 CEST" duration-ms="17905">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@437da279]" started-at="2023-06-23T18:00:16 CEST" name="setUpClass" finished-at="2023-06-23T18:00:17 CEST" duration-ms="888" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1df8da7a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@437da279]" started-at="2023-06-23T18:00:17 CEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-23T18:00:28 CEST" duration-ms="10956" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["unsuccessful login with invalid or empty credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality for OpenCart E-Commerce Website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@437da279]" started-at="2023-06-23T18:00:17 CEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-23T18:00:28 CEST" duration-ms="11018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["unsuccessful login with invalid or empty credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality for OpenCart E-Commerce Website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@437da279]" started-at="2023-06-23T18:00:17 CEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-23T18:00:28 CEST" duration-ms="11019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["unsuccessful login with invalid or empty credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality for OpenCart E-Commerce Website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@437da279]" started-at="2023-06-23T18:00:17 CEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-23T18:00:27 CEST" duration-ms="10208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to forgotten password page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality for OpenCart E-Commerce Website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@437da279]" started-at="2023-06-23T18:00:17 CEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-23T18:00:32 CEST" duration-ms="14729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["successful login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality for OpenCart E-Commerce Website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@437da279]" started-at="2023-06-23T18:00:32 CEST" name="tearDownClass" finished-at="2023-06-23T18:00:34 CEST" duration-ms="2210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Login Page Test -->
+  </suite> <!-- src/test/resources/testng.xml -->
+</testng-results>
